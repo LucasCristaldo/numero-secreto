@@ -1,5 +1,5 @@
 let numeroSorteados = [];// Aqui so guarda os valores que já foram sorteados, para que eles nao se repitam
-let numeroSorteadoMax = 10;
+let numeroSorteadoMax = 100;
 let numero_aleatorio = gerarNumeroAleatorio(); 
 // Aqui dentro tem um return de um numero, e antes ele verifica se pode entrar na lista, se ele ja entrou uma vez,
 // vai olhar para o numeroSorteados e vai ver se esse cara já entrou aqui antes.
@@ -50,7 +50,7 @@ function gerarNumeroAleatorio()
 function exibirMensagemInicial()
 {
     exibirTextoNaTela('h1', 'Jogo do Número Secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 100');
 }
 
 exibirMensagemInicial();
